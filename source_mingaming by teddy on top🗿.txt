@@ -767,7 +767,7 @@ local v16 = {
         Title = "Khác"
     })
 };
-local v17 = v14.Options;
+local v17 = Fluent.Options;
 local v18 = game.PlaceId;
 if (v18 == 2753915549) then
     Sea1 = true;
@@ -4273,7 +4273,7 @@ if Sea3 then
             v506:SendKeyEvent(false, "W", false, game);
             _G.AutoFindPrehistoric = false;
             if not v513 then
-                v14:Notify({
+                Fluent:Notify({
                     Title = "gardan hub",
                     Content = "Đảo Dung Nham Tìm Thấy!!",
                     Duration = 10
@@ -4367,7 +4367,7 @@ if Sea3 then
             v506:SendKeyEvent(false, "W", false, game);
             _G.AutoFindMirage = false;
             if not v513 then
-                v14:Notify({
+                Fluent:Notify({
                     Title = "gardan hub",
                     Content = "Đảo Bí Ẩn Tìm Thấy !",
                     Duration = 10
@@ -4461,7 +4461,7 @@ if Sea3 then
             v506:SendKeyEvent(false, "W", false, game);
             _G.AutoFindFrozen = false;
             if not v513 then
-                v14:Notify({
+                Fluent:Notify({
                     Title = "đã tìm thấy đảo frozen dimension",
                     Content = "Đảo Leviathan Tìm Thấy!",
                     Duration = 10
@@ -9723,7 +9723,7 @@ spawn(function()
         end
     end
 end);
-v14:Notify({
+Fluent:Notify({
     Title = "Made By R2LX HUB",
     Content = "Tải Xong|install done",
     Duration = 5
